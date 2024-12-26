@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Default</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <!-- Fonts END -->
+
+  <!-- Libs -->
+  <link rel="stylesheet" href="libs/nice-select/nice-select.css">
+  <!-- Libs END -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper fx-column">
+
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container fx fx-between align-center">
+        <a href="#" class="logo flex-center"><img src="img/logo.png" alt="Img">Электронная столовая</a>
+        <nav class="nav">
+          <button class="nav__close">
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/></svg>
+          </button>
+          <a href="#" class="logo flex-center"><img src="img/logo.png" alt="Img">Электронная столовая</a>
+          <ul class="nav__list">
+            <li class="nav__item fx"><a href="#" class="nav__link nav__link--active flex-center">Заказ</a></li>
+            <li class="nav__item fx"><a href="#" class="nav__link flex-center">Мои заказы</a></li>
+            <li class="nav__item fx"><a href="#" class="nav__link flex-center">Настройки</a></li>
+          </ul>
+          <div class="user">
+            <p class="user__name text-crop">Иванов Алексей Владимирович</p>
+            <div class="user__info fx fx-between">
+              <span>Основное подразделение</span>
+              <span>Площадка: К5</span>
+            </div>
+          </div>
+        </nav>
+        <button class="open-nav-mob">И</button>
+        <a href="#" class="logout flex-center">
+          <svg viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65845 6.93C8.94261 3.63 10.6384 2.2825 14.3509 2.2825H14.4701C18.5676 2.2825 20.2084 3.92333 20.2084 8.02083V13.9975C20.2084 18.095 18.5676 19.7358 14.4701 19.7358H14.3509C10.6659 19.7358 8.97011 18.4067 8.66761 15.1617" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14.25 11H3.81836" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M5.86258 7.92917L2.79175 11L5.86258 14.0708" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+    
+    <!-- Main -->
+    
+    <main class="main">
+
+      <!-- Order -->
+
+      <div class="order">
+        <div class="container">
+          <div class="title text-center">
+            <p class="title__h2">Заказ на неделю</p>
+          </div>
+          <div class="controls flex-center">
+            <a href="#" class="controls__arrow controls__arrow--prev flex-center">
+              <svg viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.854 8.92139L16.7715 14.0039L13.6524 17.1072C12.3382 18.4214 12.3382 20.5589 13.6524 21.8731L21.854 30.0747C22.9307 31.1514 24.7674 30.3756 24.7674 28.8714V19.9889V10.1247C24.7674 8.60472 22.9307 7.84472 21.854 8.92139Z" fill="#D01337"/>
+              </svg>
+            </a>
+            <span class="controls__info flex-center">09.12.2024 - 15.12.2024</span>
+            <a href="#" class="controls__arrow controls__arrow--next flex-center">
+              <svg viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.0667 17.1092L20.9475 13.99L15.865 8.9075C14.7883 7.84667 12.9517 8.60667 12.9517 10.1267V19.9908V28.8733C12.9517 30.3933 14.7883 31.1533 15.865 30.0767L24.0667 21.875C25.3808 20.5767 25.3808 18.4233 24.0667 17.1092Z" fill="#D01337"/>
+              </svg>
+            </a>
+          </div>
+          <div class="table">
+            <ul class="table__wrap">
+              <li class="table__head">
+                <div class="table__cell table__cell--1"><div class="table__inner"></div></div>
+                <div class="table__cell table__cell--2"><div class="table__inner">№ПН 09/12</div></div>
+                <div class="table__cell table__cell--3"><div class="table__inner">ВТ 09/13</div></div>
+                <div class="table__cell table__cell--4"><div class="table__inner">СР 09/14</div></div>
+                <div class="table__cell table__cell--5"><div class="table__inner">ЧТ 09/15</div></div>
+                <div class="table__cell table__cell--6"><div class="table__inner">ПТ 09/16</div></div>
+                <div class="table__cell table__cell--7"><div class="table__inner">СБ 09/17</div></div>
+                <div class="table__cell table__cell--8"><div class="table__inner">ВС 09/18</div></div>
+              </li>
+              <li class="table__item">
+                <div class="table__cell table__cell--1"><div class="table__inner">Первые блюда</div></div>
+                <div class="table__cell table__cell--2">
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                </div>
+                <div class="table__cell table__cell--3">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--4">
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                </div>
+                <div class="table__cell table__cell--5">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--6">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--7">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--8">
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                </div>
+              </li>
+              <li class="table__item">
+                <div class="table__cell table__cell--1"><div class="table__inner">Вторые блюда</div></div>
+                <div class="table__cell table__cell--2">
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                </div>
+                <div class="table__cell table__cell--3">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--4">
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                </div>
+                <div class="table__cell table__cell--5">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--6">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--7">
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                  <div class="table__inner">Крем-суп овощной</div>
+                  <div class="table__inner">Крем-суп овощной</div>
+                </div>
+                <div class="table__cell table__cell--8">
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <div class="table__inner">Борщ со сметаной</div>
+                  <a href="#" class="table__inner">Крем-суп овощной</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container text-center">&copy; Электронная столовая, 2024</div>
+    </footer>
+
+  </div>
+
+  <script src="libs/jquery/jquery-3.4.0.min.js"></script>
+  <script src="libs/nice-select/jquery.nice-select.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

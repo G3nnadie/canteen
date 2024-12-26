@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Default</title>
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <!-- Fonts END -->
+
+  <!-- Libs -->
+  <link rel="stylesheet" href="libs/nice-select/nice-select.css">
+  <!-- Libs END -->
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper fx-column">
+    
+    <!-- Main -->
+    
+    <main class="main flex-center">
+
+      <!-- Login -->
+
+      <div class="login">
+        <div class="container">
+          <div class="login__box">
+            <div class="login__logo flex-center"><img src="img/logo.png" alt="Logo"></div>
+            <div class="title text-center">
+              <h1>Электронная столовая</h1>
+            </div>
+            <div class="tabs">
+              <ul class="tabs__nav fx">
+                <li class="tabs__nav-item flex-center speed">по логину</li>
+                <li class="tabs__nav-item flex-center speed">по ФИО</li>
+              </ul>
+              <div class="tabs__content">
+                <div class="tabs__item">
+                  <form action="#" class="form login__form">
+                    <label class="form__field form__field--icon form__field--user"><input type="text" placeholder="Логин"></label>
+                    <label class="form__field form__field--icon form__field--pass"><input type="password" placeholder="Пароль"></label>
+                    <div class="form__error flex-center"><i class="i-danger"></i> Ошибка. Логин или пароль указаны неверно</div>
+                    <button class="btn btn--primary flex-center">Войти</button>
+                  </form>
+                </div>
+                <div class="tabs__item">
+                  <form action="#" class="form login__form">
+                    <div class="form__field select">
+                      <select>
+                        <option>Сотрудник</option>
+                        <option>Сотрудник 1</option>
+                        <option>Сотрудник 2</option>
+                      </select>
+                    </div>
+                    <label class="form__field form__field--icon form__field--pass"><input type="password" placeholder="Пароль"></label>
+                    <button class="btn btn--primary flex-center">Войти</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container text-center">&copy; Электронная столовая, 2024</div>
+    </footer>
+
+  </div>
+
+  <script src="libs/jquery/jquery-3.4.0.min.js"></script>
+  <script src="libs/nice-select/jquery.nice-select.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
